@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body bgcolor="cyan">
+	<div style="border-style:double;">
+	<h1 align="center">Student Registration Form</h1>
+</div><br>
+   <form name="fname" method="get/post">
+   	<table width="550px" cellpadding="8px">
+   		<tr>
+   			<td>Name:</td>
+   			<td><input type="text" name="name" placeholder="Enter full name" size="30"></td>
+   		</tr>
+   		<tr>
+   			<td>Father's Name:</td>
+   			<td><input type="text" name="name" required size="30"></td>
+   		</tr>
+   		<tr>
+   			<td>Mother's Name:</td>
+   			<td><input type="text" name="name" required size="30"></td>
+   		</tr>
+   		<tr>
+   			<td>Phone Number:</td>
+   			<td><input type="text" name="number" placeholder="017xxxxxxxx" size="30"></td>
+   		</tr>
+   		<tr>
+   			<td>Email:</td>
+   			<td><input type="email" name="myEmail" placeholder="sample@example.com" size="30"></td>
+   		</tr>
+   		<tr>
+   			<td>Gender:</td>
+   			<td><input name="gender" type="radio" name="chkMale" value="Male">Male
+   				<input name="gender" type="radio" name="chkFemale" value="Female">Female
+   				<input name="gender"type="radio" name="chkOther" value="Other">Other
+   			</td>
+   		</tr>
+   		<tr>
+   			<td>Date OfBirth:</td>
+   			<td><input type="text" name="textname" size="3">-<input type="text" name="textname" size="3">-<input type="text" name="textname" size="5"><em><small>(dd-mm-yyyy)</small></em>
+   			</td>
+   		</tr>
+   		<tr>
+   			<td>Address:</td>
+   			<td><input type="text" name="addressname" placeholder="Street:-    House:-    Road:-" size="50"></td>
+   		</tr>
+   		<tr>
+   			<td>Blood Group:</td>
+   			<td>
+   				<select>
+   					<option value="Select">Select</option>
+   					<option value="A">A</option>
+   					<option value="B">B</option>
+   					<option value="AB">AB</option>
+   					<option value="O">O</option>
+   				</select>
+   			</td>
+   		</tr>
+   		<tr>
+   			<td>Department:</td>
+   			<td><input name="department" type="radio" name="chkCSE" value="CSE">CSE<input name="department" type="radio" name="chkCSE" value="EEE">EEE<input name="department"type="radio" name="chkCSE" value="BBA">BBA</td>
+   		</tr>
+   		<tr>
+   			<td>Course:</td>
+   			<td>
+   				<input name="course" type="radio" name="coursename" value="C">C
+   				<input name="course" type="radio" name="coursename" value="C++">C++
+   				<input name="course" type="radio" name="coursename" value="Java">Java
+   				<input name="course" type="radio" name="coursename" value="AI">AI
+   				<input name="course" type="radio" name="coursename" value="Machine learning">Machine learning
+   				<input name="course" type="radio" name="coursename" value="Robotics">Robotics
+   			</td>
+   		</tr>
+   		<tr>
+   			<td>Photo:</td>
+   			<td><input type="file" name="photoSubmit" value="Choose File"></td>
+   		</tr>
+   	</table><br><br>
+   	<a href="submit.html">&nbsp;Submit</a>
+   	<input type="reset" name="restbuttom" value="Reset">
+   	
+   </form>
+
+</body>
+</html>
