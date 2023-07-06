@@ -67,12 +67,12 @@
    		<tr>
    			<td>Course:</td>
    			<td>
-   				<input name="course" type="radio" name="coursename" value="C">C
-   				<input name="course" type="radio" name="coursename" value="C++">C++
-   				<input name="course" type="radio" name="coursename" value="Java">Java
-   				<input name="course" type="radio" name="coursename" value="AI">AI
-   				<input name="course" type="radio" name="coursename" value="Machine learning">Machine learning
-   				<input name="course" type="radio" name="coursename" value="Robotics">Robotics
+   				<input name="course" type="checkbox" name="coursename" value="C">C
+   				<input name="course" type="checkbox" name="coursename" value="C++">C++
+   				<input name="course" type="checkbox" name="coursename" value="Java">Java
+   				<input name="course" type="checkbox" name="coursename" value="AI">AI
+   				<input name="course" type="checkbox" name="coursename" value="Machine learning">Machine learning
+   				<input name="course" type="checkbox" name="coursename" value="Robotics">Robotics
    			</td>
    		</tr>
    		<tr>
